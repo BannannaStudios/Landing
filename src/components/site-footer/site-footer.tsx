@@ -13,7 +13,7 @@ export const Footer = ({ className }: FooterProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.details}>
-                <div>© Bannanna / Studios. All rights reserved.</div>
+                <div className={styles.div1}>© Bannanna / Studios. All rights reserved.</div>
                 <div className={styles.small}>
                     <br />
                     <br />

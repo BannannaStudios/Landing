@@ -25,8 +25,9 @@
 }
 
 .active {
-    color: $white;
+    color: #ffe135;
     font-weight: 600;
+    text-decoration-color: #ffe135;
 }
 
 @media (width < 455px) {
@@ -38,4 +39,13 @@
     .logo {
         display: none;
     }
+}
+.link {
+    color: #ffe135;
+}
+.navLink {
+    color: #ffe135;
+}
+.navLink1 {
+    color: #ffe135;
 }

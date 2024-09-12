@@ -9,4 +9,7 @@ export default createBoard({
             <ErrorPage />
         </PageWrapper>
     ),
+    environmentProps: {
+        windowHeight: 655,
+    },
 });

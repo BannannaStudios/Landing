@@ -13,7 +13,7 @@ export interface ErrorProps {
 export const ErrorComponent = ({ title, message }: ErrorProps) => {
     return (
         <div className={styles.root}>
-            <h1>{title ?? unknownErrorTitle}</h1>
+            <h1 className={styles.header1}>{title ?? unknownErrorTitle}</h1>
             {message && <div>{message}</div>}
             <Link className={commonStyles.primaryButton} to={ROUTES.home.to()}>
                 Home Page

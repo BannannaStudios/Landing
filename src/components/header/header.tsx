@@ -10,19 +10,25 @@ export interface HeaderProps {
 export const Header = ({ className }: HeaderProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <Link to="/" className={styles.logo}>
+            <Link to="/" className={classNames(styles.logo, styles.link)}>
                 Bannanna / Studios
             </Link>
             <div className={styles.menu}>
                 <NavLink
                     to="/"
-                    className={({ isActive }) => classNames({ [styles.active]: isActive })}
+                    className={classNames(
+                        ({ isActive }) => classNames({ [styles.active]: isActive }),
+                        styles.navLink
+                    )}
                 >
                     Home
                 </NavLink>
                 <NavLink
                     to={ROUTES.about.to()}
-                    className={({ isActive }) => classNames({ [styles.active]: isActive })}
+                    className={classNames(
+                        ({ isActive }) => classNames({ [styles.active]: isActive }),
+                        styles.navLink1
+                    )}
                 >
                     About
                 </NavLink>
