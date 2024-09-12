@@ -11,13 +11,11 @@ export const loader = ({ request }: LoaderFunctionArgs) => {
 export default function HomePage() {
     return (
         <div className={styles.root}>
-            <div className={styles.title}>I'M A TITLE</div>
+            <div className={styles.title}>Banana Man</div>
             <div className={styles.paragraph}>
                 <div className={styles.text}>
-                    I’m a paragraph. Add your own text and edit me on properties panel on the right.
-                    It’s easy. Just select me and make changes to the font on the styles panel on
-                    the right. I’m a great place for you to tell a story and let your viewers know a
-                    little more about you.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
                 </div>
             </div>
             <button className={classNames(commonStyles.primaryButton, styles.button)}>

@@ -11,7 +11,7 @@ export const Header = ({ className }: HeaderProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <Link to="/" className={styles.logo}>
-                LOGO
+                Bannanna / Studios
             </Link>
             <div className={styles.menu}>
                 <NavLink

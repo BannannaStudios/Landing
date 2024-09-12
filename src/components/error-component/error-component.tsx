@@ -16,7 +16,7 @@ export const ErrorComponent = ({ title, message }: ErrorProps) => {
             <h1>{title ?? unknownErrorTitle}</h1>
             {message && <div>{message}</div>}
             <Link className={commonStyles.primaryButton} to={ROUTES.home.to()}>
-                Navigate to Home Page
+                Home Page
             </Link>
         </div>
     );

@@ -5,7 +5,7 @@ import ErrorPage from 'app/routes/error/route';
 export default createBoard({
     name: 'Page - Error',
     Board: () => (
-        <PageWrapper initialPath="/error?title=Page Not Found&message=Looks like the page you requested doesn't exist">
+        <PageWrapper initialPath="/error?title=Page Not Found&message=Oops! Someone slipped on a banana!">
             <ErrorPage />
         </PageWrapper>
     ),
