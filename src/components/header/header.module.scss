@@ -9,6 +9,8 @@
     align-items: center;
     height: 4em;
     font: $button-font;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 .menu {
@@ -23,7 +25,7 @@
 }
 
 .active {
-    color: $black;
+    color: $white;
     font-weight: 600;
 }
 
