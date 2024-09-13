@@ -31,9 +31,9 @@ export default function HomePage() {
 }
 
 export const meta: MetaFunction<typeof loader> = ({ data }) => {
-    const title = 'Website Starter';
-    const description = 'Welcome to the Website Starter';
-    const imageUrl = 'https://website-starter.com/og-image.png';
+    const title = 'Bannanna Studios';
+    const description = 'Welcome to Bannanna Studios';
+    const imageUrl = 'https://i.imgur.com/SqzJTHF.png';
 
     return [
         { title },
